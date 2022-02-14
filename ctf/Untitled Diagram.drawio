@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T19:56:14.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="g7CJffFKtUyOKCm2cgVP" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T20:03:14.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="OYXXzBgtm4OxgAyzPJFF" version="16.5.6" type="github">
   <diagram id="mKYPSwE4H_9OdJAEkAsI" name="Page-1">
     <mxGraphModel dx="1221" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,10 +46,10 @@
         <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-28" value="172.16.182.110&lt;br&gt;open ports: 22, 80&lt;br&gt;in range: 1984,1989&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="660" y="-480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-30" value="172.16.182.114" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-30" value="Hostname:&amp;nbsp;red-host-3(-student-11)&lt;br&gt;172.16.182.114&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="660" y="-410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-31" value="172.16.182.118" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-31" value="Hostname: red-host-4(-student-11)&lt;br&gt;172.16.182.118&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="660" y="-340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mIyHMtx3zS4ZUBSvp6Lm-20" target="mIyHMtx3zS4ZUBSvp6Lm-23">
