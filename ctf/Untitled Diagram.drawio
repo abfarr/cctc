@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T20:14:20.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="CiYFRv8vIcDERpFUNc-9" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T20:27:57.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="m-0iRYbnelYsZuOwLgG2" version="16.5.6" type="github">
   <diagram id="mKYPSwE4H_9OdJAEkAsI" name="Page-1">
     <mxGraphModel dx="2071" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,17 +40,17 @@
         <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-26" value="&lt;span&gt;eth2: 172.16.140.6 (/30)&lt;/span&gt;&lt;br&gt;&lt;span&gt;.7 = broadcast&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="-445" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-27" value="Hostname: red-host-1(-student-11)&lt;br&gt;172.16.182.106&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-550" width="120" height="60" as="geometry" />
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-27" value="T4&lt;br&gt;Hostname: red-host-1(-student-11)&lt;br&gt;172.16.182.106&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-610" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-28" value="172.16.182.110&lt;br&gt;open ports: 22, 80&lt;br&gt;in range: 1984,1989&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-480" width="120" height="60" as="geometry" />
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-28" value="T2: 172.16.182.110&lt;br&gt;open ports: 22, 80&lt;br&gt;extra ports: 1984,1989&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-30" value="Hostname:&amp;nbsp;red-host-3(-student-11)&lt;br&gt;172.16.182.114&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-410" width="120" height="60" as="geometry" />
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-30" value="T5 Hostname:&amp;nbsp;red-host-3(-student-11)&lt;br&gt;172.16.182.114&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-385" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-31" value="Hostname: red-host-4(-student-11)&lt;br&gt;172.16.182.118&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-340" width="120" height="60" as="geometry" />
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-31" value="T6 Hostname: red-host-4(-student-11)&lt;br&gt;172.16.182.118&lt;br&gt;open ports: 22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mIyHMtx3zS4ZUBSvp6Lm-20" target="mIyHMtx3zS4ZUBSvp6Lm-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -109,10 +109,10 @@
             <mxPoint x="680" y="-430.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-43" value="Hostname: 172.16.140.33&lt;br&gt;open ports:" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="-650" width="120" height="60" as="geometry" />
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-43" value="T3 Hostname: 172.16.140.33&lt;br&gt;open ports: 22&lt;br&gt;extra ports: 2305, 2800, 2828&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="-670" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-44" value="Hostname: 172.16.140.35&lt;br&gt;open ports:" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="mIyHMtx3zS4ZUBSvp6Lm-44" value="T7 Hostname: 172.16.140.35&lt;br&gt;open ports:" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-80" y="-650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
