@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T18:43:51.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" version="16.5.6" etag="4F-f2HUxe8EOsyuq74mi" type="github"><diagram id="CCkLYrsb_5Sjs0_9Pe5c">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T18:58:41.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="K2nW7miCk1fYT3QVF7WP" version="16.5.6" type="github">
+  <diagram id="CCkLYrsb_5Sjs0_9Pe5c" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FNEyyfUixkqxjhdoB9px-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNEyyfUixkqxjhdoB9px-2" value="Tunnel through Bob to John&lt;br&gt;ssh bob@10.50.26.181 -p 25 -L 2222:10.0.0.102:22 -NT&lt;br&gt;Establish local bind (on internet host) at 2222 that creates a tunnel through Bob (10.50.26.181), whose ssh is on 25&lt;br&gt;on the other end of the tunnel we connect to John 10.0.0.102 on port 22&lt;br&gt;-NT means no terminal so we can keep tunneling through without exiting session and breaking down whole tunnel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="115" width="630" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNEyyfUixkqxjhdoB9px-6" value="Tunnel from John to Mike&lt;br&gt;ssh john@localhost -p 2222 -L 3333:10.0.0.103:22&lt;br&gt;use John&#39;s (localhost) on port 2222 (on internet host) and create local bind (on internet host) at 3333&lt;br&gt;on the other end is mike (10.0.103:22)&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="270" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNEyyfUixkqxjhdoB9px-7" value="check tunnel works by going up to -p 25" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="70" width="230" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
