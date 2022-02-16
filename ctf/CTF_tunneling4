@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T13:26:44.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sjgpWS8Xeu5pI43hmBMd" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T13:36:10.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="08yPlgQrW3K9OKblER1f" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2071" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,13 +10,13 @@
             <mxPoint x="439.5" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--1" value="Internet Host&lt;br&gt;IP: 10.10.0.40" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--1" value="Internet Host&lt;br&gt;IP: 10.10.0.40" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-60" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--2" value="Tools" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-20" y="180" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--3" value="T3: Atropia&lt;br&gt;Internal: 10.3.0.10&lt;br&gt;External: 10.50.29.96" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--3" value="T3: Atropia&lt;br&gt;Internal: 10.3.0.10&lt;br&gt;External: 10.50.29.96" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="380" y="210" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--5" value="EXTERNAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -25,10 +25,10 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--6" value="INTERNAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="585" y="80" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--7" value="T4: Pineland&lt;br&gt;IP: 10.50.21.23" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--7" value="T4: Pineland&lt;br&gt;IP: 10.50.21.23" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="785" y="215" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--8" value="TARGET:&lt;br&gt;10.2.0.2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--8" value="TARGET:&lt;br&gt;10.2.0.2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1020" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="2QfLTyrHY2M2lkCo5Ux--22" target="2QfLTyrHY2M2lkCo5Ux--3">
@@ -52,10 +52,10 @@
             <mxPoint x="450" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--17" value="31101" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--17" value="31101" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="480" y="270" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--18" value="22" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--18" value="22" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="770" y="270" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--14" value="Telnet into T4 then&lt;br&gt;ssh -R 31101:localhost:22 net3_student11@10.3.0.10 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
@@ -82,7 +82,7 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--24" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="90" y="200" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--26" value="31103" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--26" value="31103" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-80" y="263" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--29" value="&lt;h1&gt;Scenario&lt;/h1&gt;&lt;span&gt;We can access T4 as an insider (but only via Telnet, not SSH)&lt;/span&gt;&lt;br&gt;&lt;span&gt;We want to access information on TARGET via SSH tunneling&lt;/span&gt;&lt;br&gt;&lt;span&gt;Tools are on out internet host but access comes from T4: Pineland&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -103,7 +103,7 @@
             <mxPoint x="600" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--28" value="31102" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--28" value="31102" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="39" y="263" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--39" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
