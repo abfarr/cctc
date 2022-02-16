@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T20:33:51.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SLE-r9ppivP8-opLKUtn" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T20:42:40.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aKwVZR2hFDNidtQaX_z9" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
-    <mxGraphModel dx="1888" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2071" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,14 +61,23 @@
         <mxCell id="duze3X__lLn2EJtRwXXi-20" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-180" y="283" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.10&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-175" y="370" width="275" height="40" as="geometry" />
+        <mxCell id="duze3X__lLn2EJtRwXXi-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.20&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.30&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.40&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="370" width="275" height="70" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-22" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-175" y="348" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-23" value="Problems:&lt;br&gt;1, 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-245" y="55" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="duze3X__lLn2EJtRwXXi-24" value="Hint from .20:&amp;nbsp;&lt;i&gt;&lt;span style=&quot;font-size: 9pt ; line-height: 107%&quot;&gt;SSH is using an alternate port &lt;br&gt;above the well known ports. Use Banner Grabbing &lt;br&gt;to figure it out so you pivot to the next machine &lt;br&gt;that only this one has access to&lt;/span&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="340" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duze3X__lLn2EJtRwXXi-25" value="Hint from .30: &lt;i&gt;The flag on this machine is on a &lt;br&gt;non-well known TCP port following a &lt;br&gt;similar scheme as net-ssh-02 &lt;br&gt;ports but higher. You must connect to it somehow&amp;nbsp;&lt;/i&gt;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="420" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="duze3X__lLn2EJtRwXXi-27" value="&lt;div&gt;Hint from .40: &lt;i&gt;The machine has access to&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;the 172.16.0.0/24 network. You will have to find&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;the alternate sshd port on the net-ssh-02 to progress further&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Flag: &lt;i&gt;Goodbye&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;my friend, you messed up again&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="510" width="330" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
