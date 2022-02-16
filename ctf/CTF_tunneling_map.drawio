@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T13:39:19.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7gukVNKz52txa7g9jKAj" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T15:28:07.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bLCFSTluAOAeHiOdPiMw" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="1888" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--2" value="Tools" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-20" y="180" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--3" value="T3: Atropia&lt;br&gt;Internal: 10.3.0.10&lt;br&gt;External: 10.50.29.96" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--3" value="T3: Atropia Pivot&lt;br&gt;Internal: 10.3.0.10&lt;br&gt;External: 10.50.29.96" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="380" y="210" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--5" value="EXTERNAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -25,8 +25,8 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--6" value="INTERNAL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="585" y="80" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--7" value="T4: Pineland&lt;br&gt;IP: 10.50.21.23" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="785" y="215" width="120" height="60" as="geometry" />
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--7" value="T4: Pineland&lt;br&gt;10.50.21.23" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="780" y="215" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--8" value="Mohammad:&lt;br&gt;10.2.0.2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1020" y="215" width="120" height="60" as="geometry" />
@@ -54,6 +54,9 @@
             <mxPoint x="795" y="255" as="sourcePoint" />
             <mxPoint x="510" y="255" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MnGtbzwlXuB-lsqd1GG1-4" value="Atlantica Pivot:&lt;br&gt;10.2.0.3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
