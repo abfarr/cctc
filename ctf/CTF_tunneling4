@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T01:35:39.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="3M_2GI18S29FJ0qy6Bqv" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T13:26:44.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sjgpWS8Xeu5pI43hmBMd" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2071" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--21" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="530" y="200" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--22" value="ssh net3_student11@10.50.29.96 -L 31102:localhost:31101 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--22" value="from IH: ssh net3_student11@10.50.29.96 -L 31102:localhost:31101 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="100" y="215" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--23" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2QfLTyrHY2M2lkCo5Ux--1" target="2QfLTyrHY2M2lkCo5Ux--22">
@@ -88,7 +88,7 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--29" value="&lt;h1&gt;Scenario&lt;/h1&gt;&lt;span&gt;We can access T4 as an insider (but only via Telnet, not SSH)&lt;/span&gt;&lt;br&gt;&lt;span&gt;We want to access information on TARGET via SSH tunneling&lt;/span&gt;&lt;br&gt;&lt;span&gt;Tools are on out internet host but access comes from T4: Pineland&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="460" width="380" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--31" value="ssh net3_student11@localhost -p 31102 -L 31103:10.2.0.2:80 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--31" value="from IH: ssh net3_student11@localhost -p 31102 -L 31103:10.2.0.2:80 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="500" y="430" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2QfLTyrHY2M2lkCo5Ux--31" target="2QfLTyrHY2M2lkCo5Ux--8">
@@ -109,7 +109,7 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--39" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="485" y="420" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--42" value="curl http://localhost:31103" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+        <mxCell id="2QfLTyrHY2M2lkCo5Ux--42" value="from IH: curl http://localhost:31103" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-110" y="340" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--43" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
