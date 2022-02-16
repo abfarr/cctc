@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T19:20:32.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="U7k3B1i5YLD3CxVB5qH6" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T19:23:22.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="MzPxaNXWM3-M0r7Yn39e" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
-    <mxGraphModel dx="2333" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n44jxtcjX1VwuFWqTyCD-2" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;from IH: proxychains ./scan.sh&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;proxychains wget -r ftp://10.2.0.2&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="439.5" y="410" as="sourcePoint" />
@@ -110,17 +113,8 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--39" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="480" y="320" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--42" value="from IH: proxychains ./scan.sh&lt;br&gt;&lt;br&gt;proxychains wget -r ftp://10.2.0.2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="340" width="240" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--43" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-110" y="330" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2mBiLjz1ojCnWJu2go6_-1" value="&lt;span&gt;from IH: proxychains ./scan.sh&lt;/span&gt;&lt;br&gt;&lt;span&gt;find: 10.5.0.1, .57&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="800" y="360" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2mBiLjz1ojCnWJu2go6_-2" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="785.5" y="340" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
