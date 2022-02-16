@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T15:28:07.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bLCFSTluAOAeHiOdPiMw" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T15:40:04.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="XcDspAX-s4yUzNfxtT7M" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="1888" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,9 +34,6 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--11" value="Access" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="820" y="180" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2QfLTyrHY2M2lkCo5Ux--29" value="&lt;h1&gt;Scenario&lt;/h1&gt;&lt;span&gt;We can access T4 as an insider (but only via Telnet, not SSH)&lt;/span&gt;&lt;br&gt;&lt;span&gt;We want to access information on TARGET via SSH tunneling&lt;/span&gt;&lt;br&gt;&lt;span&gt;Tools are on out internet host but access comes from T4: Pineland&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry y="460" width="380" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="MnGtbzwlXuB-lsqd1GG1-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2QfLTyrHY2M2lkCo5Ux--1" target="2QfLTyrHY2M2lkCo5Ux--3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="310" as="sourcePoint" />
@@ -57,6 +54,12 @@
         </mxCell>
         <mxCell id="MnGtbzwlXuB-lsqd1GG1-4" value="Atlantica Pivot:&lt;br&gt;10.2.0.3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1020" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnGtbzwlXuB-lsqd1GG1-5" value="Cortina:&lt;br&gt;10.3.0.1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MnGtbzwlXuB-lsqd1GG1-6" value="Victoria:&lt;br&gt;10.3.0.27" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
