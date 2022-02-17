@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T18:36:37.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Vq4zVQ2qglSmEgvTyn3_" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T18:38:01.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="k4khXlOZg-CymrUbKEut" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="1906" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
           <mxGeometry x="60" y="243" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-40" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-296" y="80" width="30" height="30" as="geometry" />
+          <mxGeometry x="-333" y="80" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-45" value="NET-SSH-02:&lt;br&gt;Internal:&amp;nbsp;192.168.0.50&lt;br&gt;Open Ports: 21, 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1176" y="331" width="190" height="60" as="geometry" />
@@ -258,13 +258,19 @@
           <mxGeometry x="640" y="980" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rbnCeYtW4sFdPo3E8ZL8-31" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="80.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="-297" y="80.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rbnCeYtW4sFdPo3E8ZL8-32" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;from IH:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains ./scan.sh&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(172.16.0, 70, 1337 --leet from hint)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains nc 172.16.0.70 1337&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-325" y="770.25" width="270" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="rbnCeYtW4sFdPo3E8ZL8-33" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-320" y="760" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-34" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="580" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-35" value="12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-257" y="80.5" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
