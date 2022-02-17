@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T18:23:03.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6l9Yyw44SLwQ2v5wPqpo" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T18:28:59.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="C4CRJgnOp7o7ocEhH22f" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2347" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -235,6 +235,18 @@
         </mxCell>
         <mxCell id="rbnCeYtW4sFdPo3E8ZL8-22" value="NET-SSH-09:&lt;br&gt;Internal:&amp;nbsp;172.16.0.90&lt;br&gt;Open Ports: 21, 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="640" y="890" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-23" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;from IH:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains wget -r 172.16.0.80&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r 172.16.0.90&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r ftp://172.16.0.90&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="589.5" width="275" height="70.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-24" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-319" y="575" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-25" value="&lt;div&gt;Hint-7: The get the flag for the net-ssh-07, you will&amp;nbsp;&lt;/div&gt;&lt;div&gt;need to look for and connect to a port commonly used with leet speek&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Hint-8: To get the flag for this machine, you will need to&amp;nbsp;&lt;/div&gt;&lt;div&gt;look for and connect to the port most commonly used for RDP&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="800" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-26" value="&lt;div&gt;&lt;div&gt;flag.png: The flag is: Peanut Butter Jelly Time&amp;nbsp;&lt;/div&gt;&lt;div&gt;hint.png:&amp;nbsp; This is the only machine that can reach net-ssh-10. You will&amp;nbsp;&lt;/div&gt;&lt;div&gt;have to use an alternate ssh port on this machine to identify&amp;nbsp;&lt;/div&gt;&lt;div&gt;ports on the final machine&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="890" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
