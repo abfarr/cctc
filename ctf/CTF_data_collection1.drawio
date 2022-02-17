@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T13:37:41.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aN5_tf1W_47jfxz8mVtc" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T14:31:25.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="WQVzlKyFy3QS6RwdEye_" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2071" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,6 +99,12 @@
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-12" value="&lt;div&gt;OTHER PLACES TO SEARCH: /usr/share/cctc OR home directory&lt;/div&gt;&lt;div&gt;CHECK: IP, ARP -A, Open Ports, NETSTAT&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-575" y="707" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-13" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-16" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="363" y="2" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
