@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T17:25:40.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="iFh9mG2IV68G3Q258UIg" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T17:35:22.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="wG2DD1kFpzfA1kNdD314" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2333" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
         <mxCell id="V4ygMix9neK_rHeA2cn2-53" value="Tear down tunnel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-350" y="195" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="V4ygMix9neK_rHeA2cn2-56" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+        <mxCell id="V4ygMix9neK_rHeA2cn2-56" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
           <mxGeometry x="-185" y="80" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WIV3rkEMDpp98gtpgbOe-1" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -152,7 +152,7 @@
           <mxGeometry x="197.5" y="460.5" width="275" height="59.5" as="geometry" />
         </mxCell>
         <mxCell id="WIV3rkEMDpp98gtpgbOe-5" value="NET-SSH-06:&lt;br&gt;Internal:&amp;nbsp;172.16.0.60&lt;br&gt;Open Ports: 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="812.5" y="660" width="190" height="60" as="geometry" />
+          <mxGeometry x="1177.5" y="530.25" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-20" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="210" y="370" width="30" height="30" as="geometry" />
@@ -161,7 +161,7 @@
           <mxGeometry x="200" y="450" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WIV3rkEMDpp98gtpgbOe-8" value="&lt;div&gt;The flag is the&amp;nbsp;hex representation of the Vlan&amp;nbsp;&lt;/div&gt;&lt;div&gt;Tag Protocol ID in the ethernet header -- 0x8100&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="660" width="270" height="30" as="geometry" />
+          <mxGeometry x="205" y="589" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WIV3rkEMDpp98gtpgbOe-11" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1030" y="570" width="30" height="30" as="geometry" />
@@ -170,10 +170,25 @@
           <mxGeometry x="1100" y="505" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WIV3rkEMDpp98gtpgbOe-16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;from IH:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r 172.16.0.60&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="200" y="540.5" width="275" height="69.5" as="geometry" />
+          <mxGeometry x="200" y="540.5" width="275" height="39.5" as="geometry" />
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-11" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="200" y="529" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WIV3rkEMDpp98gtpgbOe-17" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;from IH:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains ./scan.sh&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;(172.16.0.60, 21-23, 80)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r ftp://172.16.0.60&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;check hint&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="630.5" width="275" height="59.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WIV3rkEMDpp98gtpgbOe-18" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="619" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WIV3rkEMDpp98gtpgbOe-19" value="Hint from .60: This machine is a possible pivot &lt;br&gt;to accessmore machines in the network but ssh &lt;br&gt;is not open to hosts outside this network" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="540.5" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WIV3rkEMDpp98gtpgbOe-21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="370" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WIV3rkEMDpp98gtpgbOe-22" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="356" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
