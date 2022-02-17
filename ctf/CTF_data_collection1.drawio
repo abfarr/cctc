@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T20:42:40.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aKwVZR2hFDNidtQaX_z9" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T13:21:14.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2lUhEXQ18voXX7nLIspQ" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2071" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,74 +10,86 @@
         <mxCell id="2QfLTyrHY2M2lkCo5Ux--8" value="NET-SSH-01:&lt;br&gt;External: 10.50.25.34&lt;br&gt;Internal:&amp;nbsp;192.168.0.10&lt;br&gt;Open Ports: 22, 23, 80, 2401, 2402, 9050" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="640" y="155" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="duze3X__lLn2EJtRwXXi-2" target="duze3X__lLn2EJtRwXXi-9">
+        <mxCell id="duze3X__lLn2EJtRwXXi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="duze3X__lLn2EJtRwXXi-2" target="duze3X__lLn2EJtRwXXi-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-2" value="ssh student@10.50.21.246 -R 31101:localhost:22 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-2" value="from telnet SSH-01: ssh student@10.50.21.246 -R 31101:localhost:22 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="340" y="195" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="duze3X__lLn2EJtRwXXi-5" target="duze3X__lLn2EJtRwXXi-2">
+        <mxCell id="duze3X__lLn2EJtRwXXi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="duze3X__lLn2EJtRwXXi-5" target="duze3X__lLn2EJtRwXXi-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-5" value="22" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-5" value="22" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="630" y="273" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="duze3X__lLn2EJtRwXXi-9" target="duze3X__lLn2EJtRwXXi-11">
+        <mxCell id="duze3X__lLn2EJtRwXXi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="duze3X__lLn2EJtRwXXi-9" target="duze3X__lLn2EJtRwXXi-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-9" value="31101" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-9" value="31101" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="60" y="240" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="duze3X__lLn2EJtRwXXi-11" target="2QfLTyrHY2M2lkCo5Ux--8">
+        <mxCell id="duze3X__lLn2EJtRwXXi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="duze3X__lLn2EJtRwXXi-11" target="2QfLTyrHY2M2lkCo5Ux--8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-11" value="ssh net3_student11@localhost -p 31101 -D 9050 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-11" value="ssh net3_student11@localhost -p 31101 -D 9050 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="160" y="50" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-12" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-12" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="150" y="30" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-15" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.20&lt;br&gt;Open Ports: 22, 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-15" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.20&lt;br&gt;Open Ports: 22, 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="640" y="330" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-16" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.30&lt;br&gt;Open Ports: 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-16" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.30&lt;br&gt;Open Ports: 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="640" y="410" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-17" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.40&lt;br&gt;Open Ports: 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-17" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.40&lt;br&gt;Open Ports: 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="640" y="500" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-18" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;from IH:&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains ./scan.sh (192.168.0)&lt;br&gt;find 192.168.0.10,20,30,40&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-18" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;from IH:&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains ./scan.sh (192.168.0)&lt;br&gt;find 192.168.0.10,20,30,40&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-180" y="305" width="275" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mYg_Y59IcBYT0eOCHOQk-1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;telnet into NET-SSH-01&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;ifconfig (private IP)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;netstat -plnt (what&#39;s open)&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="770" y="130" width="275" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-3" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-3" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="790" y="110" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-19" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-19" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="330" y="180" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-20" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-20" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-180" y="283" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.20&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.30&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.40&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.10&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.20&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.30&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r http://192.168.0.40&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-175" y="370" width="275" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-22" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-22" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-175" y="348" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-23" value="Problems:&lt;br&gt;1, 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-23" value="Problems:&lt;br&gt;1, 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-245" y="55" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-24" value="Hint from .20:&amp;nbsp;&lt;i&gt;&lt;span style=&quot;font-size: 9pt ; line-height: 107%&quot;&gt;SSH is using an alternate port &lt;br&gt;above the well known ports. Use Banner Grabbing &lt;br&gt;to figure it out so you pivot to the next machine &lt;br&gt;that only this one has access to&lt;/span&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-24" value="Hint from .20:&amp;nbsp;&lt;i&gt;&lt;span style=&quot;font-size: 9pt ; line-height: 107%&quot;&gt;SSH is using an alternate port &lt;br&gt;above the well known ports. Use Banner Grabbing &lt;br&gt;to figure it out so you pivot to the next machine &lt;br&gt;that only this one has access to&lt;/span&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="340" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-25" value="Hint from .30: &lt;i&gt;The flag on this machine is on a &lt;br&gt;non-well known TCP port following a &lt;br&gt;similar scheme as net-ssh-02 &lt;br&gt;ports but higher. You must connect to it somehow&amp;nbsp;&lt;/i&gt;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-25" value="Hint from .30: &lt;i&gt;The flag on this machine is on a &lt;br&gt;non-well known TCP port following a &lt;br&gt;similar scheme as net-ssh-02 &lt;br&gt;ports but higher. You must connect to it somehow&amp;nbsp;&lt;/i&gt;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="420" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="duze3X__lLn2EJtRwXXi-27" value="&lt;div&gt;Hint from .40: &lt;i&gt;The machine has access to&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;the 172.16.0.0/24 network. You will have to find&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;the alternate sshd port on the net-ssh-02 to progress further&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Flag: &lt;i&gt;Goodbye&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;my friend, you messed up again&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="duze3X__lLn2EJtRwXXi-27" value="&lt;div&gt;Hint from .40: &lt;i&gt;The machine has access to&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;the 172.16.0.0/24 network. You will have to find&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;the alternate sshd port on the net-ssh-02 to progress further&lt;/i&gt;&lt;/div&gt;&lt;div&gt;Flag: &lt;i&gt;Goodbye&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;my friend, you messed up again&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="510" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-1" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;from IH:&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains ./scan.sh (192.168.0, 20)&lt;br&gt;find 192.168.0.20:3333,2222,1111&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="470" width="275" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-2" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="448" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-3" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;from IH:&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains nc 192.168.0.20 1111&lt;br&gt;repeat for 2222, 3333 to find ssh port (&lt;b&gt;3333&lt;/b&gt;)&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="541" width="275" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-4" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="519" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
