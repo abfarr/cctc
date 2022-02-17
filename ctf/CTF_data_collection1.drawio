@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T14:31:25.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="WQVzlKyFy3QS6RwdEye_" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T14:33:00.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="uozYGX-bzrZ1fcb-KjEU" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2071" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,10 +41,10 @@
           <mxGeometry x="640" y="330" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-16" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.30&lt;br&gt;Open Ports: 80, 4444" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="640" y="410" width="190" height="60" as="geometry" />
+          <mxGeometry x="640" y="422" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-17" value="????:&lt;br&gt;Internal:&amp;nbsp;192.168.0.40&lt;br&gt;Open Ports: 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="640" y="500" width="190" height="60" as="geometry" />
+          <mxGeometry x="640" y="512" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-18" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;from IH:&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains ./scan.sh (192.168.0)&lt;br&gt;find 192.168.0.10,20,30,40&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-180" y="305" width="275" height="40" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry x="-245" y="55" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-24" value="Hint from .20:&amp;nbsp;&lt;i&gt;&lt;span style=&quot;font-size: 9pt ; line-height: 107%&quot;&gt;SSH is using an alternate port &lt;br&gt;above the well known ports. Use Banner Grabbing &lt;br&gt;to figure it out so you pivot to the next machine &lt;br&gt;that only this one has access to&lt;/span&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="850" y="340" width="280" height="60" as="geometry" />
+          <mxGeometry x="850" y="331" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="duze3X__lLn2EJtRwXXi-25" value="Hint from .30: &lt;i&gt;The flag on this machine is on a &lt;br&gt;non-well known TCP port following a &lt;br&gt;similar scheme as net-ssh-02 &lt;br&gt;ports but higher. You must connect to it somehow&amp;nbsp;&lt;/i&gt;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="420" width="280" height="60" as="geometry" />
@@ -105,6 +105,21 @@
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-16" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="363" y="2" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V4ygMix9neK_rHeA2cn2-17" target="duze3X__lLn2EJtRwXXi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="V4ygMix9neK_rHeA2cn2-17" target="V4ygMix9neK_rHeA2cn2-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-17" value="from IH:&amp;nbsp;ssh net3_student11@localhost -p 31101 -L 31102:192.168.0.20:3333 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="258" y="298" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-18" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="248" y="283" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-21" value="3333" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="610" y="370" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
