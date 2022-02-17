@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T16:46:45.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="xsmoZlp8w7ZiLC0N4s9v" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T16:51:57.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UU5l2_yrLoNrrB3DlJwQ" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
-    <mxGraphModel dx="2071" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2333" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V4ygMix9neK_rHeA2cn2-54" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;startArrow=none;" edge="1" parent="1" source="V4ygMix9neK_rHeA2cn2-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="1040" as="sourcePoint" />
+            <mxPoint x="503" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-47" value="" style="endArrow=none;html=1;rounded=0;fontColor=#99FF99;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="duze3X__lLn2EJtRwXXi-15" target="V4ygMix9neK_rHeA2cn2-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="820" y="520" as="sourcePoint" />
@@ -181,7 +187,7 @@
           <mxGeometry x="-335" y="80" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-43" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;from IH:&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains ./scan.sh&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;(192.168.0, 1-254, 21-23 80)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;finds 192.168.0.50&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;proxychains wget -r 192.168.0.50&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;check hint then:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;proxychains wget -r ftp://192.168.0.50&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;check flag.png for&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;lt;&amp;gt;&amp;lt;&amp;lt;&amp;gt;&amp;lt;&amp;lt;&amp;gt;&amp;lt;&amp;lt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="230" y="639.25" width="294.31" height="140.75" as="geometry" />
+          <mxGeometry x="230" y="639.25" width="294.31" height="110.75" as="geometry" />
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-44" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="240" y="637.5" width="30" height="30" as="geometry" />
@@ -206,6 +212,27 @@
         </mxCell>
         <mxCell id="V4ygMix9neK_rHeA2cn2-53" value="Tear down tunnel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-350" y="195" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-56" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-55" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="484.30999999999995" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-57" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1" target="V4ygMix9neK_rHeA2cn2-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="1040" as="sourcePoint" />
+            <mxPoint x="503" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-58" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="539.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-59" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="484.30999999999995" y="283.25" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V4ygMix9neK_rHeA2cn2-60" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="262.75" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
