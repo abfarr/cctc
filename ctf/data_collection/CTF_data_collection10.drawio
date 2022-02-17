@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T18:18:53.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="4iPuCSSJTgfnUFUKcma1" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T18:23:03.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6l9Yyw44SLwQ2v5wPqpo" version="16.5.6" type="github">
   <diagram id="JSSCa7bkJR9PmikTlj4o" name="Page-1">
     <mxGraphModel dx="2347" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -197,6 +197,44 @@
         </mxCell>
         <mxCell id="rbnCeYtW4sFdPo3E8ZL8-7" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="130" y="499" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#7F00FF;" edge="1" parent="1" source="rbnCeYtW4sFdPo3E8ZL8-14" target="WIV3rkEMDpp98gtpgbOe-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="469" />
+              <mxPoint x="-380" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#7F00FF;" edge="1" parent="1" source="rbnCeYtW4sFdPo3E8ZL8-14" target="WIV3rkEMDpp98gtpgbOe-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="469" />
+              <mxPoint x="-10" y="760" />
+              <mxPoint x="731" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-14" value="forom IH: ssh net3_student11@localhost -p 31104 -D 9050 -NT" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-289" y="439" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-15" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="340" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-18" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;from IH: proxychains ./scan.sh&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(172.16.0, 80-120, 21-23 80)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;find .80, .90&lt;/font&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="525" width="275" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-20" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-319" y="510.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-21" value="NET-SSH-08:&lt;br&gt;Internal:&amp;nbsp;172.16.0.80&lt;br&gt;Open Ports: 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="635.5" y="800" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rbnCeYtW4sFdPo3E8ZL8-22" value="NET-SSH-09:&lt;br&gt;Internal:&amp;nbsp;172.16.0.90&lt;br&gt;Open Ports: 21, 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="640" y="890" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
