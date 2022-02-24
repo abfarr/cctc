@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T20:18:09.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6hIQMjlwQ-nqQFEGuOKL" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T20:21:19.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Mfkqs3wj0_8txHsTOeF1" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
     <mxGraphModel dx="1748" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -102,14 +102,17 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-40" value="&lt;font&gt;&lt;font color=&quot;#000000&quot;&gt;tcpdump -i eth0 -vA port 520&lt;br&gt;new network:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;10.50.27.11&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;/32&lt;br&gt;nmap 10.50.27.11, wget for hint 6a&lt;/font&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1020" y="705" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-41" value="capstone-?&lt;br&gt;Ext: 10.50.27.11&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:00:01:a5&lt;br&gt;&lt;br&gt;eth10.2.2.6/28:, bc: .15&lt;br&gt;Open Ports: 80, 7777 (ssh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-41" value="capstone-?&lt;br&gt;Ext: 10.50.27.11&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:00:01:a5&lt;br&gt;&lt;br&gt;eth0:10.2.2.6/28:, bc: .15&lt;br&gt;Open Ports: 80, 7777 (ssh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="270" y="1140" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-43" value="Hint 6a: SSH is running on a higher port although it only &lt;br&gt;seems to accept connections when it looks like its coming &lt;br&gt;from a Cisco Device&#39;s TTL. The flag for this system is the &lt;br&gt;ssh port number." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="460" y="1175" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-44" value="&lt;div style=&quot;font-size: 8px&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Cisco devices have TTL 255,&lt;/span&gt;&lt;/div&gt;mangle tables make everything look like something else&lt;br style=&quot;font-size: 8px&quot;&gt;sudo iptables -t mangle -A POSTROUTING -j TTL --ttl-set 255&lt;br&gt;nmap 10.50.27.11 -p 7000-8000&lt;br&gt;ssh net3_student11@10.50.27.11 -p 7777" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="750" y="1165" width="230" height="60" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-44" value="&lt;div style=&quot;font-size: 8px&quot;&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;Cisco devices have TTL 255,&lt;/span&gt;&lt;/div&gt;mangle tables make everything look like something else&lt;br style=&quot;font-size: 8px&quot;&gt;sudo iptables -t mangle -A POSTROUTING -j TTL --ttl-set 255&lt;br&gt;nmap 10.50.27.11 -p 7000-8000&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;7777 -&amp;gt;&amp;nbsp;Nzc3Nwo=&lt;/font&gt;&lt;br&gt;ssh net3_student11@10.50.27.11 -p 7777" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1160" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-46" value="Poke around:&amp;nbsp;ssh net3_student11@10.50.24.228 -D 9050 -NT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="655" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
