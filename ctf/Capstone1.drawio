@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T20:35:31.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UrumNV1eyhlTmbvYcCep" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T20:37:58.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NLSR3bxYcMBJK_1BHEe4" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
     <mxGraphModel dx="1748" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -132,8 +132,8 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-52" value="Hint 7a: SSH is running on a higher port but is not accessible&lt;br&gt;from the outside. It also seems to use different credentials&amp;nbsp;&lt;br&gt;than what the other systems use. How can we intercept these&lt;br&gt;credentials? Maybe another system has a tool that can help&lt;br&gt;us. The flag for this system is the password you find converted&lt;br&gt;to base64. credentials will be exactly what you find" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1360" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-53" value="Look for logins over tcp while on capstone 6&lt;br&gt;tcpdump tcp port 23 -XX" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1450" width="170" height="30" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-53" value="Look for logins over tcp while on capstone 6&lt;br&gt;tcpdump src host 10.2.2.7 and tcp port 23 -XX" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1450" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
