@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T18:49:35.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ULI-CJah0SK0Q4roK9WL" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T18:50:44.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UDldxNe0SSekJsK6HP04" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
-    <mxGraphModel dx="1973" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1631" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,15 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-2" value="capstone-01&lt;br&gt;Ext: 10.50.24.228&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:87:2e:49&lt;br&gt;&lt;br&gt;eth0: 10.1.1.30/25, bc: .127&lt;br&gt;Lo: 127.0.0.1/8&lt;br&gt;Open Ports: 22, 80, (68, 123)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="260" y="720" width="180" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-4" value="capstone-04&lt;br&gt;Ext: ?&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:b0:d7:01&lt;br&gt;&lt;br&gt;eth0:10.1.1.33, bc: .127&lt;br&gt;Open Ports: 21, 23, 80&lt;br&gt;&lt;br&gt;eth1:1.1.1.1/29, bc: .7&lt;br&gt;Open Ports?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="hog6Gc4PmT9u0CKpANyL-4" target="hog6Gc4PmT9u0CKpANyL-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="700" />
+              <mxPoint x="670" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-4" value="capstone-04&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:b0:d7:01&lt;br&gt;&lt;br&gt;eth0:10.1.1.33, bc: .127&lt;br&gt;Open Ports: 21, 23, 80&lt;br&gt;&lt;br&gt;eth1:1.1.1.1/29, bc: .7&lt;br&gt;Open Ports?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="630" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;" edge="1" parent="1" source="hog6Gc4PmT9u0CKpANyL-1" target="hog6Gc4PmT9u0CKpANyL-2">
@@ -34,7 +42,7 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-13" value="?&lt;br&gt;Ext: ?&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:b0:d7:01&lt;br&gt;&lt;br&gt;eth?:?, bc: ?&lt;br&gt;Open Ports:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-120" y="860" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-14" value="capstone-02&lt;br&gt;Ext:&amp;nbsp;&lt;br&gt;MAC: fa:16:3e:07:4f:f2&lt;br&gt;&lt;br&gt;eth0:10.1.1.11, bc: .127&lt;br&gt;Open Ports: 21, 23, 80, 123 1918" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-14" value="capstone-02&lt;br&gt;&lt;br&gt;MAC: fa:16:3e:07:4f:f2&lt;br&gt;&lt;br&gt;eth0:10.1.1.11, bc: .127&lt;br&gt;Open Ports: 21, 23, 80, 123 1918" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="370" width="160" height="125" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-15" value="?&lt;br&gt;Ext: ?&lt;br&gt;MAC: fa:16:3e:03:85:7d&lt;br&gt;&lt;br&gt;eth0:10.1.1.125, bc: .127&lt;br&gt;Lo: 127.0.0.1/8&lt;br&gt;Open Ports: ()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -43,7 +51,7 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-16" value="?&lt;br&gt;Ext: ?&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:73:4e:16&lt;br&gt;&lt;br&gt;eth0:10.1.1.126, bc: .127&lt;br&gt;Open Ports: ()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="970" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-20" value="capstone-03?&lt;br&gt;Ext:&amp;nbsp;&lt;br&gt;MAC:&amp;nbsp;&lt;br&gt;&lt;br&gt;eth0:10.1.1.25, bc: .127&lt;br&gt;Open Ports: 21, 4869" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-20" value="capstone-03?&lt;br&gt;MAC:&amp;nbsp;&lt;br&gt;&lt;br&gt;eth0:10.1.1.25, bc: .127&lt;br&gt;Open Ports: 21, 4869" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="510" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-21" value="Hint 2a: There is a webservice running on the port that &lt;br style=&quot;font-size: 10px&quot;&gt;corresponds with the RFC that governs private IP &lt;br&gt;addressing -&amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;1918&amp;nbsp;&lt;/font&gt;(wget -r http://10.1.1.11:1918)&lt;br&gt;&lt;b&gt;Net Fundamentals Web Server&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
@@ -76,8 +84,8 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-34" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px;&quot;&gt;Q1:&amp;nbsp; raw sockets in __ space -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;KERNEL -&amp;gt; S0VSTkVMCg==&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px;&quot;&gt;Q2:&amp;nbsp; python module for hex conversion -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;binascii -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;YmluYXNjaWkK&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px;&quot;&gt;Q3:&amp;nbsp; packing IP4 raw header -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;BBHHHBBH4s4s -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;QkJISEhCQkg0czRzCg==&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px;&quot;&gt;Q4: default encoding of data sent over network-&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;UTF-8 -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;VVRGLTgK&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px;&quot;&gt;Q5:&amp;nbsp; tcp header built for checksum calc&amp;nbsp;-&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;PSEUDO -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px;&quot;&gt;UFNFVURPCg==&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="930" y="505" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-36" value="capstone-04&lt;br&gt;Ext: ?&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:b0:d7:01&lt;br&gt;&lt;br&gt;eth0:10.1.1.33, bc: .127&lt;br&gt;Open Ports: 21, 23, 80&lt;br&gt;&lt;br&gt;eth1:1.1.1.1/29, bc: .7&lt;br&gt;Open Ports?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="780" width="160" height="140" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-36" value="capstone-05&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:b0:d7:01&lt;br&gt;&lt;br&gt;eth0:10.1.1.33, bc: .127&lt;br&gt;Open Ports: 21, 23, 80&lt;br&gt;&lt;br&gt;eth1:1.1.1.1/29, bc: .7&lt;br&gt;Open Ports?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="740" width="160" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
