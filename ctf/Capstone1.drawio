@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T18:57:47.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="00bXVR25d1s2UHpMJsOm" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T19:04:29.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="RLOfZljPE_TqW7f9sXkR" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
     <mxGraphModel dx="1631" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,6 +86,9 @@
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-36" value="capstone-05&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:11:3f:3b&lt;br&gt;&lt;br&gt;eth0:1.1.1.2, bc: .7&lt;br&gt;Open Ports:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="950" y="755" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-38" value="&lt;font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px&quot;&gt;Telnet into box and run&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;tcpdump -i eth1 -A port 69&lt;/font&gt;&lt;br&gt;&amp;nbsp;&lt;font color=&quot;#009900&quot;&gt;&quot;I just want to say LOVE YOU SAN&quot; -&amp;gt;&lt;br&gt;SSBqdXN0IHdhbnQgdG8gc2F5IExPVkUgWU9VIFNBTgo=&amp;nbsp;&lt;/font&gt;&amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="635" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
