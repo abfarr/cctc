@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T19:04:29.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="RLOfZljPE_TqW7f9sXkR" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T19:17:19.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="DVrAgEfOFRJcv7kkB-HX" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
-    <mxGraphModel dx="1631" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1165" dy="169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,7 +69,7 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-25" value="Hint 4a: There is another Box (Capstone-05) on a different network (that&lt;br&gt;only this system can see) try to attack this box on one of the port(s)&amp;nbsp;&lt;br&gt;associated with the W32/Blaster Worm. Find out what message it&lt;br&gt;is trying to send -&amp;gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;135T/U (69U, 136U, 137U, 138U, 445T, 593T, 4444T)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="670" y="635" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-26" value="Hint 4b: RIPv2 seems to be running on the 10.1.1.0/25 network. Try to filter&lt;br&gt;it out. Find out what networks its advertising in its updates. What you find&lt;br&gt;will be the IP address of the next enviornment pivot to access from your&amp;nbsp;&lt;br&gt;INTERNET_HOST. Since you are not able to use wireshar,k I would &lt;br&gt;suggest to copy and paste the hexdump to another packet decoder" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-26" value="Hint 4b: RIPv2 seems to be running on the 10.1.1.0/25 network. Try to filter&lt;br&gt;it out. Find out what networks its advertising in its updates. What you find&lt;br&gt;will be the IP address of the next enviornment pivot to access from your&amp;nbsp;&lt;br&gt;INTERNET_HOST. Since you are not able to use wireshar,k I would &lt;br&gt;suggest to copy and paste the hexdump to another packet decoder -&amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;520&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="670" y="685" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-27" value="Hint 1a: This system seems to be a pivot for&lt;br&gt;the Network Fundamentals and Programming&lt;br&gt;sections" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
@@ -89,6 +89,9 @@
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-38" value="&lt;font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px&quot;&gt;Telnet into box and run&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;tcpdump -i eth1 -A port 69&lt;/font&gt;&lt;br&gt;&amp;nbsp;&lt;font color=&quot;#009900&quot;&gt;&quot;I just want to say LOVE YOU SAN&quot; -&amp;gt;&lt;br&gt;SSBqdXN0IHdhbnQgdG8gc2F5IExPVkUgWU9VIFNBTgo=&amp;nbsp;&lt;/font&gt;&amp;nbsp;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1020" y="635" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-40" value="&lt;font&gt;&lt;font color=&quot;#000000&quot;&gt;tcpdump -i eth0 -vA port 520&lt;br&gt;new network:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;10.50.27.11&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;/32&lt;/font&gt;&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="710" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
