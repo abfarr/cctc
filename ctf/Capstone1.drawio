@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T17:33:46.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="wJmXVFtHHNfAUY5eWZ4u" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T17:34:26.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ETruMU0-rxkGqebhasuJ" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
     <mxGraphModel dx="1973" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,11 +52,11 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-22" value="Hint 2b: There is a PCAP saved in the share folder of &lt;br&gt;this machine that you should look at (proxychains t&lt;br&gt;elnet 10.1.1.11)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="670" y="455" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-23" value="Hint 2a: There is a webservice running on the port that corresponds with&amp;nbsp;&lt;br&gt;the RFC that governs IPv4 Header Structure -&amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;791&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="670" y="520" width="340" height="30" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-23" value="Hint 3a: There is a webservice running on the port that &lt;br&gt;corresponds with&amp;nbsp;the RFC that governs IPv4 Header &lt;br&gt;Structure -&amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;791&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="670" y="515" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-24" value="Hint 3b: There is a listening TCP port on this system waiiting for your connections&lt;br&gt;build a python 3 TCP stream sender and send it through your tunnel to say Hi&lt;br&gt;Send message as bytes like object and&amp;nbsp;decode response to/from UTF-8 to get flag&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="670" y="560" width="380" height="40" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-24" value="Hint 3b: There is a listening TCP port on this system waiiting &lt;br&gt;for your connections build a python 3 TCP stream sender and s&lt;br&gt;end it through your tunnel to say Hi. Send message as bytes like &lt;br&gt;object and&amp;nbsp;decode response to/from UTF-8 to get flag&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="670" y="555" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-25" value="Hint 4a: There is another Box (Capstone-05) on a different network (that&lt;br&gt;only this system can see) try to attack this box on one of the port(s)&amp;nbsp;&lt;br&gt;associated with the W32/Blaster Worm. Find out what message it&lt;br&gt;is trying to send -&amp;gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;135T/U (69U, 136U, 137U, 138U, 445T, 593T, 4444T)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="670" y="635" width="340" height="50" as="geometry" />
