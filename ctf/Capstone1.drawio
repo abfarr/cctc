@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T15:27:16.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="L5iSEHWARlgcI26hsrvA" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T15:57:52.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="K_IYowlKPAOI_HZc7q_g" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
-    <mxGraphModel dx="1973" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,10 +158,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=8;fontColor=#009900;" edge="1" parent="1" source="hog6Gc4PmT9u0CKpANyL-56" target="hog6Gc4PmT9u0CKpANyL-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="1480" />
+              <mxPoint x="1000" y="1480" />
+              <mxPoint x="1000" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=8;fontColor=#009900;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hog6Gc4PmT9u0CKpANyL-56" target="hog6Gc4PmT9u0CKpANyL-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="1900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="685" y="1640" />
+              <mxPoint x="1000" y="1640" />
+              <mxPoint x="1000" y="1670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-56" value="capstone-08&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:de:0c:e6&lt;br&gt;eth0:10.10.10.140/25:, bc: .255&lt;br&gt;Open Ports: 21, 301 (ssh)&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:3b:6f:11&lt;br&gt;eth1:&amp;nbsp;192.168.10.44/27, bc: .63" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="510" y="1520" width="175" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-57" value="capstone-?&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;&lt;br&gt;eth0:10.10.10.167/25:, bc: .255&lt;br&gt;Open Ports: 80, 404 (ssh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-57" value="capstone-10&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;&lt;br&gt;eth0:10.10.10.167/25:, bc: .255&lt;br&gt;Open Ports: 80, 404 (ssh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="515" y="1670" width="175" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-58" value="Hint 8a: SSH is running on the port that corresponds with the&amp;nbsp;&lt;br&gt;HTTP status code for moved permanently. The flag for this&amp;nbsp;&lt;br&gt;system is the port number converted to BASE 64 -&amp;gt; &lt;font color=&quot;#009900&quot;&gt;301 -&amp;gt;&amp;nbsp;&lt;br&gt;MzAxCg==&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
@@ -176,7 +195,7 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-61" value="Hint 10b: This system seems to be a pivot for the movement &lt;br&gt;and redirection section" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="700" y="1730" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-62" value="capstone-?&lt;br&gt;&lt;br&gt;MAC: ?&lt;br&gt;eth0:10.10.10.182/25:, bc: .255&lt;br&gt;Open Ports: 21, 504 (ssh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-62" value="capstone-12&lt;br&gt;&lt;br&gt;MAC: ?&lt;br&gt;eth0:10.10.10.182/25:, bc: .255&lt;br&gt;Open Ports: 21, 504 (ssh)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="515" y="1820" width="175" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-63" value="Hint 12a: SSH is running on the port with the HTTP status code &lt;br&gt;for Gateway Timeout -&amp;gt; &lt;font color=&quot;#009900&quot;&gt;504 -&amp;gt; NTA0Cg==&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
@@ -191,11 +210,20 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-65" value="close dynamic tunnel and open local to capstone 7&lt;br&gt;&lt;b&gt;IH4$&lt;/b&gt; exit&lt;br&gt;&lt;b&gt;IH4$&lt;/b&gt;&amp;nbsp;ssh net3_student11@localhost -p 31104 -L 31105:10.10.10.140:301 -NT&lt;br&gt;then tunnel in further&lt;br&gt;IH5$&amp;nbsp;ssh net3_student11@localhost -p 31105 -D 9050&lt;br&gt;poke around, then -NT above and scan&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;Netflix and Chill -&amp;gt;&amp;nbsp;TmV0ZmxpeCBhbmQgQ2hpbGwK&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="80" y="1700" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-67" value="capstone?&lt;br&gt;&lt;br&gt;MAC: fa:16:3e:5d:7d:50&lt;br&gt;eth0:192.168.10.39/27:, bc: .63&lt;br&gt;Open Ports:" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1450" width="175" height="120" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-67" value="capstone-09&lt;br&gt;&lt;br&gt;MAC: fa:16:3e:5d:7d:50&lt;br&gt;eth0:192.168.10.39/27:, bc: .63&lt;br&gt;Open Ports: 21" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="1470" width="175" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-72" value="capstone?&lt;br&gt;&lt;br&gt;MAC: fa:16:3e:74:1c:70&lt;br&gt;eth0:192.168.10.62/27:, bc: .63&lt;br&gt;Open Ports:" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="1580" width="175" height="120" as="geometry" />
+          <mxGeometry x="1045" y="1610" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-73" value="capstone?&lt;br&gt;&lt;br&gt;MAC: fa:16:3e:bc:c3:a5&lt;br&gt;eth0:10.10.10.254/25:, bc: .255&lt;br&gt;Open Ports:" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="1310" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-77" value="Hint 9a: There is a webservice on this machine that is on the &lt;br&gt;same port that metasploit uses for its webservice-&amp;gt; &lt;font color=&quot;#ff0000&quot;&gt;3790&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1490" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-78" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px&quot;&gt;Q1:&amp;nbsp; recon type of ARP scans and gratuitous ARPS for MitM -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;&amp;nbsp;ACTIVE INTERNAL &lt;br&gt;-&amp;gt; QUNUSVZFIElOVEVSTkFMCg==&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px&quot;&gt;Q2:&amp;nbsp; stealth scan host response for closed port -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px&quot;&gt;&amp;nbsp;RST -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;UlNUCg==&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px&quot;&gt;Q3:&amp;nbsp; DNS tool over port 43 -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px&quot;&gt;&amp;nbsp;WHOIS -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot;&gt;V0hPSVMK&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px&quot;&gt;Q4: attack frame with 0x8100 in it -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px&quot;&gt;&amp;nbsp;VLAN HOPPING -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px&quot;&gt;VkxBTiBIT1BQSU5HCg==&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 7px&quot;&gt;Q5:&amp;nbsp; 5000b packet, MTU 1500, header len 7, frag offset? &lt;br style=&quot;font-size: 7px&quot;&gt;(1500 - (7*32 bits)/4)/8 -&amp;gt;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px&quot;&gt;&amp;nbsp;184 -&amp;gt;&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#009900&quot; style=&quot;font-size: 7px&quot;&gt;MTg0Cg==&lt;br style=&quot;font-size: 7px&quot;&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=7;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1525" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
