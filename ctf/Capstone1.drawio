@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T21:01:49.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Ca9D44FTvc-qWaIqSVfS" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T13:59:43.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bZFPf9C98k0LfFFJUXRa" version="16.6.2" type="github">
   <diagram id="ZfgTW8RmMzK-_vYFPty-" name="Page-1">
     <mxGraphModel dx="1748" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-4" value="capstone-04&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:b0:d7:01&lt;br&gt;&lt;br&gt;eth0:10.1.1.33, bc: .127&lt;br&gt;Open Ports: 21, 23, 80&lt;br&gt;&lt;br&gt;eth1:1.1.1.1/29, bc: .7&lt;br&gt;Open Ports: 21, 23, 68, 80, 123&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-4" value="capstone-04&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:b0:d7:01&lt;br&gt;eth0:10.1.1.33, bc: .127&lt;br&gt;Open Ports: 21, 23, 80&lt;br&gt;&lt;br&gt;eth1:1.1.1.1/29, bc: .7&lt;br&gt;Open Ports: 21, 23, 68, 80, 123&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="630" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;" edge="1" parent="1" source="hog6Gc4PmT9u0CKpANyL-1" target="hog6Gc4PmT9u0CKpANyL-2">
@@ -123,17 +123,20 @@
         <mxCell id="hog6Gc4PmT9u0CKpANyL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="hog6Gc4PmT9u0CKpANyL-48" target="hog6Gc4PmT9u0CKpANyL-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-48" value="capstone-?&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:47:d5:26&lt;br&gt;&lt;br&gt;eth0:10.2.2.7/28:, bc: .15&lt;br&gt;Open Ports: 23, 80" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1340" width="160" height="120" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-48" value="capstone-07&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:47:d5:26&lt;br&gt;eth0:10.2.2.7/28:, bc: .15&lt;br&gt;Open Ports: 23, 80&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:49:8f:53&lt;br&gt;eth1: 10.10.10.129/27, bc: .255" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1340" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-49" value="capstone-?&lt;br&gt;&lt;br&gt;MAC:&amp;nbsp;fa:16:3e:89:ad:06&lt;br&gt;&lt;br&gt;eth0:10.2.2.14/28:, bc: .15&lt;br&gt;Open Ports:&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1340" width="160" height="120" as="geometry" />
+          <mxGeometry x="510" y="1340" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hog6Gc4PmT9u0CKpANyL-52" value="Hint 7a: SSH is running on a higher port but is not accessible&lt;br&gt;from the outside. It also seems to use different credentials&amp;nbsp;&lt;br&gt;than what the other systems use. How can we intercept these&lt;br&gt;credentials? Maybe another system has a tool that can help&lt;br&gt;us. The flag for this system is the password you find converted&lt;br&gt;to base64. credentials will be exactly what you find" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=2;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1360" width="290" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hog6Gc4PmT9u0CKpANyL-53" value="Look for logins over tcp while on capstone 6&lt;br&gt;tcpdump src host 10.2.2.7 and tcp port 23 -XX&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;Netflix and Chill -&amp;gt;&amp;nbsp;TmV0ZmxpeCBhbmQgQ2hpbGwK&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1445" width="210" height="40" as="geometry" />
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-53" value="From capstone 6, look for logins over tcp on telnet&lt;br&gt;tcpdump src host 10.2.2.7 and tcp port 23 -XX&lt;br&gt;&lt;font color=&quot;#009900&quot;&gt;Netflix and Chill -&amp;gt;&amp;nbsp;TmV0ZmxpeCBhbmQgQ2hpbGwK&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="1440" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hog6Gc4PmT9u0CKpANyL-54" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Make brand new tunnel system (go to 6 directly and tunnel because&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;no telnet permission on 6) to telnet into 7&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;all from IH terminals:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;ssh net3_student11@10.50.27.11 -p 7777 -L 31101:localhost:777&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;7 -NT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;ssh net3_student11@localhost -p 31101 -L 31102:10.2.2.7:23 -NT&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;telnet localhost 31102&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry y="1480" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
