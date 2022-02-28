@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T18:08:34.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2tr5KPIQAgm7D_ELBf10" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T18:09:14.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AIYgLW3FWjhEEn-dqoH1" version="16.6.4" type="github">
   <diagram id="TCRUe3uSkyLb6rqyTZN1" name="Page-1">
     <mxGraphModel dx="898" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
         <mxCell id="idfaNTtJ8LiENN7ivy_d-51" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 06a: ssh on alternate port&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="1260" y="340" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="idfaNTtJ8LiENN7ivy_d-52" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 06b: check process on this machine. One program&lt;br&gt;waiting to trigger alert on network action (SNORT)&lt;br&gt;find out what program and what it is doing&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="idfaNTtJ8LiENN7ivy_d-52" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 06b: check process on this machine. One program&lt;br&gt;waiting to trigger alert on network action (SNORT)&lt;br&gt;find out what program and what it is doing&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="1260" y="360" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="idfaNTtJ8LiENN7ivy_d-53" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 08: alternate http port&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#009900;" parent="1" vertex="1">
