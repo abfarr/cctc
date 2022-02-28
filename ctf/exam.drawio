@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T17:51:40.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="XBN2pDcv2d1__G_uFr5d" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T18:08:34.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2tr5KPIQAgm7D_ELBf10" version="16.6.4" type="github">
   <diagram id="TCRUe3uSkyLb6rqyTZN1" name="Page-1">
     <mxGraphModel dx="898" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,7 +17,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="idfaNTtJ8LiENN7ivy_d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="idfaNTtJ8LiENN7ivy_d-1" target="idfaNTtJ8LiENN7ivy_d-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="214" />
+              <mxPoint x="710" y="126" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="idfaNTtJ8LiENN7ivy_d-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" parent="1" source="idfaNTtJ8LiENN7ivy_d-1" target="idfaNTtJ8LiENN7ivy_d-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -58,7 +63,7 @@
         <mxCell id="idfaNTtJ8LiENN7ivy_d-8" value="net-final-01-e&lt;br&gt;&lt;br&gt;eth0: 172.16.0.66/25, bc: .127&lt;br&gt;eth1: 192.168.0.14/27, bc: .31&lt;br&gt;&lt;br&gt;Open Ports: &lt;b&gt;22, 80&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="790" y="-30" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="idfaNTtJ8LiENN7ivy_d-11" value="Creds:&amp;nbsp;&lt;br&gt;7662a56e049854b878139c8ab0973849&lt;br&gt;&lt;br&gt;ens3: 172.16.0.92/25, bc: .127&lt;br&gt;&lt;br&gt;Open Ports: &lt;b&gt;80&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="idfaNTtJ8LiENN7ivy_d-11" value="Creds:&amp;nbsp;&lt;br&gt;7662a56e049854b878139c8ab0973849&lt;br&gt;&lt;br&gt;ens3: 172.16.0.92/25, bc: .127&lt;br&gt;&lt;br&gt;Open Ports: &lt;b&gt;80, 3074&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="765" y="81" width="230" height="89" as="geometry" />
         </mxCell>
         <mxCell id="idfaNTtJ8LiENN7ivy_d-13" value="&lt;i style=&quot;font-size: 10px;&quot;&gt;Hint-01 Do some passive enumeration on this machine&lt;br style=&quot;font-size: 10px;&quot;&gt;to get the IP address/mask combination for a secondary&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/i&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;i style=&quot;font-size: 10px;&quot;&gt;interface&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#009900;" parent="1" vertex="1">
@@ -70,10 +75,10 @@
         <mxCell id="idfaNTtJ8LiENN7ivy_d-15" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 09b: You will use md5sum of the phrase you gained from&amp;nbsp;&lt;br style=&quot;font-size: 10px&quot;&gt;performing a banner grabbing as the password for this system&lt;br style=&quot;font-size: 10px&quot;&gt;and beyond&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="1021" y="103" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="idfaNTtJ8LiENN7ivy_d-16" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 09c: SSH will not work by using the default TTL for a linux machine.&lt;br style=&quot;font-size: 10px&quot;&gt;Manipulate it to look like the default for a windows machine.&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="idfaNTtJ8LiENN7ivy_d-16" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 09c: SSH will not work by using the default TTL for a linux machine.&lt;br style=&quot;font-size: 10px&quot;&gt;Manipulate it to look like the default for a windows machine.&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="1021" y="140" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="idfaNTtJ8LiENN7ivy_d-17" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 09d: This flad is the number you applied to your machine&#39;s TTL&lt;br&gt;to SSH to this one based on the provided hint&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="idfaNTtJ8LiENN7ivy_d-17" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Hint 09d: This flag is the number you applied to your machine&#39;s TTL&lt;br&gt;to SSH to this one based on the provided hint&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#009900;" parent="1" vertex="1">
           <mxGeometry x="1021" y="169" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idfaNTtJ8LiENN7ivy_d-18" value="&lt;i style=&quot;font-size: 10px&quot;&gt;Flag-05 The flag is the exact password you find performing passive&lt;br&gt;recon on your jumpbox and converted to md5sum&lt;br&gt;&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#009900;" parent="1" vertex="1">
