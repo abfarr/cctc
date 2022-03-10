@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T19:00:41.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="qAGYa5Ejj0KqoxWkdGx8" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T19:03:36.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="rFhw2aN1UFmNiPP33hMO" version="17.1.1" type="github">
   <diagram id="FVTB6eCvjAsudvaujAqm" name="Page-1">
     <mxGraphModel dx="1283" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -140,11 +140,11 @@
         <mxCell id="a8j4Nl5_mCWLMUD-GGag-29" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#b85450;fillColor=#f8cecc;shape=mxgraph.azure.computer;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="1325" y="200" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="3g2P0krdNDipfxDaKVIT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.53;entryY=1.113;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a8j4Nl5_mCWLMUD-GGag-30" target="a8j4Nl5_mCWLMUD-GGag-8">
+        <mxCell id="3g2P0krdNDipfxDaKVIT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a8j4Nl5_mCWLMUD-GGag-30" target="3g2P0krdNDipfxDaKVIT-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1350" y="380" />
-              <mxPoint x="1134" y="380" />
+              <mxPoint x="1649" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -183,6 +183,15 @@
         </mxCell>
         <mxCell id="a8j4Nl5_mCWLMUD-GGag-45" value="&lt;div&gt;DNLA (T1)&lt;/div&gt;10.100.28.48&lt;br&gt;Ports: 80" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="726" y="740" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3g2P0krdNDipfxDaKVIT-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="3g2P0krdNDipfxDaKVIT-2" target="3g2P0krdNDipfxDaKVIT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3g2P0krdNDipfxDaKVIT-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#b85450;fillColor=#f8cecc;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="200" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3g2P0krdNDipfxDaKVIT-3" value="192.168.150.245&lt;br&gt;Ports: ?&lt;br&gt;student:YourTempPassword" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="265" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
